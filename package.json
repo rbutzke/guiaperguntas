@@ -1,0 +1,19 @@
+{
+  "name": "guiaperguntas",
+  "version": "1.0.0",
+  "description": "Uma Plataforma de perguntas e respostas",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbutzke/guiaperguntas.git"
+  },
+  "author": "roberto butzke junior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbutzke/guiaperguntas/issues"
+  },
+  "homepage": "https://github.com/rbutzke/guiaperguntas#readme"
+}
