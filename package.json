@@ -1,19 +1,26 @@
 {
-  "name": "guiaperguntas",
-  "version": "1.0.0",
-  "description": "Uma Plataforma de perguntas e respostas",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rbutzke/guiaperguntas.git"
-  },
-  "author": "roberto butzke junior",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rbutzke/guiaperguntas/issues"
-  },
-  "homepage": "https://github.com/rbutzke/guiaperguntas#readme"
+    "name": "guiaperguntas",
+    "version": "1.0.0",
+    "description": "Uma Plataforma de perguntas e respostas",
+    "main": "app.js",
+    "scripts": {
+        "dev": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rbutzke/guiaperguntas.git"
+    },
+    "author": "roberto butzke junior",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rbutzke/guiaperguntas/issues"
+    },
+    "homepage": "https://github.com/rbutzke/guiaperguntas#readme",
+    "dependencies": {
+        "body-parse": "^0.1.0",
+        "ejs": "^3.1.3",
+        "express": "^4.17.1",
+        "mysql2": "^2.1.0",
+        "sequelize": "^5.21.12"
+    }
 }
